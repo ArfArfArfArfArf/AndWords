@@ -82,7 +82,7 @@ public class DownloadManager
 			f = new File(strOldPath + strExt);
 
 			if (f.exists())
-				return strOldPath;
+				return strOldPath + strExt;
 
 			strDonePath = getDonePath(strOldPath + strExt);
 
