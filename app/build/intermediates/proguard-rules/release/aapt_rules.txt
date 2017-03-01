@@ -1,0 +1,15 @@
+# view res/layout/main.xml #generated:8
+-keep class com.roadkill.andwords.AndGrid { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.roadkill.andwords.AndWords { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.roadkill.andwords.LoadPuzzle { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.roadkill.andwords.LoadPuzzle2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.roadkill.andwords.Preferences { <init>(...); }
+

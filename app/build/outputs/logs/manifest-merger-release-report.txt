@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:3:7-38
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:6:7-34
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:4:7-31
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:5:7-37
+supports-screens
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:8:5-12:31
+	android:smallScreens
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:10:3-30
+	android:normalScreens
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:9:3-31
+	android:resizeable
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:11:3-28
+	android:anyDensity
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:12:3-28
+uses-sdk
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:14:5-73
+	android:targetSdkVersion
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:14:41-70
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:14:15-40
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:17:22-78
+application
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:20:5-55:19
+	android:label
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:20:48-80
+	android:allowBackup
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:20:81-107
+	android:icon
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:20:18-47
+activity#com.roadkill.andwords.AndWords
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:29:3-37:20
+	android:label
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:29:38-70
+	android:windowSoftInputMode
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:31:13-74
+	android:configChanges
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:30:13-83
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:29:13-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:33:15-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.roadkill.andwords.Preferences
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:39:9-40:20
+	android:label
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:39:47-74
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:39:19-46
+activity#com.roadkill.andwords.LoadPuzzle
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:42:9-47:20
+	android:label
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:42:46-72
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:42:19-45
+intent-filter#android.intent.category.DEFAULT+com.roadkill.andwords.LoadPuzzle.LOAD_PUZZLE
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:43:9-46:26
+action#com.roadkill.andwords.LoadPuzzle.LOAD_PUZZLE
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:44:11-81
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:44:19-78
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:45:11-70
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:45:21-67
+activity#com.roadkill.andwords.LoadPuzzle2
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:48:9-53:20
+	android:label
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:48:47-74
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:48:19-46
+intent-filter#android.intent.category.DEFAULT+com.roadkill.andwords.LoadPuzzle2.LOAD_PUZZLE
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:49:9-52:26
+action#com.roadkill.andwords.LoadPuzzle2.LOAD_PUZZLE
+ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:50:11-82
+	android:name
+		ADDED from C:\Users\andy\StudioProjects\AndWords\app\src\main\AndroidManifest.xml:50:19-79

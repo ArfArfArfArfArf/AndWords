@@ -1,0 +1,117 @@
+com.roadkill.andwords.AndGrid
+com.roadkill.andwords.AndGrid: void setPuzzleListener(com.roadkill.andwords.AndGrid$PuzzleCompletedListener)
+com.roadkill.andwords.AndGrid: void setParent(com.roadkill.andwords.AndWords)
+com.roadkill.andwords.AndGrid: void setInfo(com.roadkill.andwords.CrosswordInfo)
+com.roadkill.andwords.AndGrid: void setTimer(long)
+com.roadkill.andwords.AndGrid: AndGrid(android.content.Context,android.util.AttributeSet,int)
+com.roadkill.andwords.AndGrid: AndGrid(android.content.Context,android.util.AttributeSet)
+com.roadkill.andwords.AndGrid: AndGrid(android.content.Context)
+com.roadkill.andwords.AndGrid$Direction: com.roadkill.andwords.AndGrid$Direction[] values()
+com.roadkill.andwords.AndGrid$Direction: com.roadkill.andwords.AndGrid$Direction valueOf(java.lang.String)
+com.roadkill.andwords.AndWords
+com.roadkill.andwords.AndWords: AndWords()
+com.roadkill.andwords.LoadPuzzle2
+com.roadkill.andwords.LoadPuzzle2: LoadPuzzle2()
+com.roadkill.andwords.Preferences
+com.roadkill.andwords.Preferences: Preferences()
+com.roadkill.andwords.R$array: int clue_font_sizes
+com.roadkill.andwords.R$array: int clue_font_sizes_values
+com.roadkill.andwords.R$array: int end_of_word_array
+com.roadkill.andwords.R$array: int end_of_word_values
+com.roadkill.andwords.R$array: int reveal_values
+com.roadkill.andwords.R$array: int screen_orientation_array
+com.roadkill.andwords.R$array: int screen_orientation_values
+com.roadkill.andwords.R$array: int screen_theme_array
+com.roadkill.andwords.R$array: int screen_theme_values
+com.roadkill.andwords.R$array: int volume_rocker_entries
+com.roadkill.andwords.R$array: int volume_rocker_values
+com.roadkill.andwords.R$drawable: int check
+com.roadkill.andwords.R$drawable: int donate
+com.roadkill.andwords.R$drawable: int download
+com.roadkill.andwords.R$drawable: int exit
+com.roadkill.andwords.R$drawable: int help
+com.roadkill.andwords.R$drawable: int ic_action
+com.roadkill.andwords.R$drawable: int icon
+com.roadkill.andwords.R$drawable: int info
+com.roadkill.andwords.R$drawable: int listcheck
+com.roadkill.andwords.R$drawable: int load
+com.roadkill.andwords.R$drawable: int preferences
+com.roadkill.andwords.R$drawable: int reveal
+com.roadkill.andwords.R$id: int check
+com.roadkill.andwords.R$id: int clue_font_size
+com.roadkill.andwords.R$id: int end_of_word_pref
+com.roadkill.andwords.R$id: int exit
+com.roadkill.andwords.R$id: int grid
+com.roadkill.andwords.R$id: int help
+com.roadkill.andwords.R$id: int info
+com.roadkill.andwords.R$id: int list_item_completed
+com.roadkill.andwords.R$id: int list_item_text
+com.roadkill.andwords.R$id: int load
+com.roadkill.andwords.R$id: int preferences
+com.roadkill.andwords.R$id: int reveal
+com.roadkill.andwords.R$id: int screen_orientation_list_pref
+com.roadkill.andwords.R$id: int screen_theme_pref
+com.roadkill.andwords.R$id: int volume_rocker
+com.roadkill.andwords.R$layout: int main
+com.roadkill.andwords.R$layout: int main_menu
+com.roadkill.andwords.R$layout: int preferences
+com.roadkill.andwords.R$layout: int simple_list_item
+com.roadkill.andwords.R$menu: int options_menu
+com.roadkill.andwords.R$string: int NYT_Password
+com.roadkill.andwords.R$string: int NYT_Username
+com.roadkill.andwords.R$string: int app_license
+com.roadkill.andwords.R$string: int app_name
+com.roadkill.andwords.R$string: int check
+com.roadkill.andwords.R$string: int clue_font_size
+com.roadkill.andwords.R$string: int clue_pref_category
+com.roadkill.andwords.R$string: int delete_older_than_2_weeks
+com.roadkill.andwords.R$string: int delete_older_than_2_weeks_title
+com.roadkill.andwords.R$string: int do_in_ink
+com.roadkill.andwords.R$string: int donate
+com.roadkill.andwords.R$string: int download_puzzles
+com.roadkill.andwords.R$string: int download_puzzles_title
+com.roadkill.andwords.R$string: int downloading_puzzles
+com.roadkill.andwords.R$string: int enable_NYT_Daily
+com.roadkill.andwords.R$string: int end_of_word
+com.roadkill.andwords.R$string: int end_of_word_summary
+com.roadkill.andwords.R$string: int end_of_word_title
+com.roadkill.andwords.R$string: int enter_changes_direction
+com.roadkill.andwords.R$string: int exit
+com.roadkill.andwords.R$string: int fit_puzzle_to_screen
+com.roadkill.andwords.R$string: int google_search
+com.roadkill.andwords.R$string: int help
+com.roadkill.andwords.R$string: int info
+com.roadkill.andwords.R$string: int last_load_check
+com.roadkill.andwords.R$string: int list_item_completed
+com.roadkill.andwords.R$string: int load
+com.roadkill.andwords.R$string: int load_custom_cancel
+com.roadkill.andwords.R$string: int load_custom_message
+com.roadkill.andwords.R$string: int load_custom_ok
+com.roadkill.andwords.R$string: int load_custom_title
+com.roadkill.andwords.R$string: int navigation_pref_category
+com.roadkill.andwords.R$string: int preferences
+com.roadkill.andwords.R$string: int puzzle_finished_in
+com.roadkill.andwords.R$string: int puzzle_finished_message
+com.roadkill.andwords.R$string: int puzzle_finished_min
+com.roadkill.andwords.R$string: int puzzle_finished_ok
+com.roadkill.andwords.R$string: int puzzle_finished_sec
+com.roadkill.andwords.R$string: int puzzle_finished_title
+com.roadkill.andwords.R$string: int reveal
+com.roadkill.andwords.R$string: int screen_orientation
+com.roadkill.andwords.R$string: int screen_orientation_default_value
+com.roadkill.andwords.R$string: int screen_orientation_summary
+com.roadkill.andwords.R$string: int screen_orientation_title
+com.roadkill.andwords.R$string: int screen_theme
+com.roadkill.andwords.R$string: int screen_theme_default_value
+com.roadkill.andwords.R$string: int screen_theme_summary
+com.roadkill.andwords.R$string: int screen_theme_title
+com.roadkill.andwords.R$string: int show_both_clues
+com.roadkill.andwords.R$string: int show_clue_length
+com.roadkill.andwords.R$string: int show_wrong_answers
+com.roadkill.andwords.R$string: int show_wrong_answers_title
+com.roadkill.andwords.R$string: int showpuzzleinfo
+com.roadkill.andwords.R$string: int skip_existing_letters
+com.roadkill.andwords.R$string: int space_changes_direction
+com.roadkill.andwords.R$string: int time_puzzle
+com.roadkill.andwords.R$string: int volume_rocker
+com.roadkill.andwords.util.Base64DecoderException: long serialVersionUID

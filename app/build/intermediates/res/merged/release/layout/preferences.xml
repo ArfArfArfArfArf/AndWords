@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+ 	<ListPreference
+ 		android:key="@string/screen_theme"
+ 		android:id="@+id/screen_theme_pref"
+ 		android:summary="@string/screen_theme_summary"
+ 		android:title="@string/screen_theme_title"
+ 		android:defaultValue="@string/screen_theme_default_value"
+ 		android:entries="@array/screen_theme_array"
+ 		android:entryValues="@array/screen_theme_values"/>
+ 	
+    <CheckBoxPreference
+ 		android:key="@string/time_puzzle"
+ 		android:title="@string/time_puzzle"/>
+ 		
+ 	<ListPreference
+ 		android:key="@string/screen_orientation"
+ 		android:id="@+id/screen_orientation_list_pref"
+ 		android:summary="@string/screen_orientation_summary"
+ 		android:title="@string/screen_orientation_title"
+ 		android:defaultValue="@string/screen_orientation_default_value"
+ 		android:entries="@array/screen_orientation_array"
+ 		android:entryValues="@array/screen_orientation_values"/>
+ 	
+ 	<ListPreference
+ 	    android:key="@string/clue_font_size"
+ 	    android:id="@+id/clue_font_size"
+ 	    android:title="@string/clue_font_size"
+ 	    android:summary="@string/clue_font_size"
+ 	    android:defaultValue="30.0"
+ 	    android:entries="@array/clue_font_sizes"
+ 	    android:entryValues="@array/clue_font_sizes_values"/>
+ 	    
+ 	<CheckBoxPreference
+ 		android:title="@string/showpuzzleinfo"
+ 		android:key="@string/showpuzzleinfo"/>
+
+ 	<CheckBoxPreference
+ 	    android:title="@string/fit_puzzle_to_screen"
+ 	    android:key="@string/fit_puzzle_to_screen"/>
+ 	
+ 	<CheckBoxPreference
+ 	    android:title="@string/enable_NYT_Daily"
+ 	    android:key="@string/enable_NYT_Daily"/>
+ 	
+ 	<EditTextPreference
+ 	    android:title="@string/NYT_Username"
+ 	    android:key="@string/NYT_Username" />
+ 	
+ 	<EditTextPreference
+ 	    android:title="@string/NYT_Password"
+ 	    android:key="@string/NYT_Password" />
+ 	
+ 		<PreferenceCategory
+ 		android:title="@string/navigation_pref_category">
+ 		
+	 	<CheckBoxPreference
+	 		android:title="@string/space_changes_direction"
+	 		android:key="@string/space_changes_direction"/>
+	 	<CheckBoxPreference
+	 	  	android:title="@string/enter_changes_direction"
+	 		android:key="@string/enter_changes_direction"/>
+	 	<CheckBoxPreference
+	 		android:title="@string/skip_existing_letters"
+	 		android:key="@string/skip_existing_letters"/>
+	 	<ListPreference
+	 		android:key="@string/end_of_word"
+	 		android:id="@+id/end_of_word_pref"
+	 		android:summary="@string/end_of_word_summary"
+	 		android:title="@string/end_of_word_title"
+	 		android:defaultValue="Stop"
+	 		android:entries="@array/end_of_word_array"
+	 		android:entryValues="@array/end_of_word_values"/>
+	 	<ListPreference
+	 	    android:key="@string/volume_rocker"
+	 	    android:id="@+id/volume_rocker"
+	 	    android:title="@string/volume_rocker"
+	 	    android:summary="@string/volume_rocker"
+	 	    android:defaultValue="Word"
+	 	    android:entries="@array/volume_rocker_entries"
+	 	    android:entryValues="@array/volume_rocker_values"/>
+ 	
+	 		</PreferenceCategory>
+ 		
+ 	<PreferenceCategory
+ 		android:title="@string/clue_pref_category">
+ 		
+ 		<CheckBoxPreference
+ 			android:key="@string/show_wrong_answers"
+ 			android:title="@string/show_wrong_answers_title" />
+ 		<CheckBoxPreference
+ 			android:key="@string/show_both_clues"
+ 			android:title="@string/show_both_clues"/>
+ 		<CheckBoxPreference
+ 			android:key="@string/show_clue_length"
+ 			android:title="@string/show_clue_length"/>
+ 		<CheckBoxPreference
+ 			android:key="@string/do_in_ink"
+ 			android:title="@string/do_in_ink"/>
+ 		<CheckBoxPreference
+ 			android:key="@string/google_search"
+ 			android:title="@string/google_search"/>
+ 	</PreferenceCategory>
+ 
+ <!-- 	
+ 	<PreferenceCategory
+ 	    android:title="@string/downloading_puzzles">
+ 	    
+ 	    <CheckBoxPreference
+ 	        android:key="@string/download_puzzles"
+ 	        android:title="@string/download_puzzles_title" />
+ 	    
+ 	</PreferenceCategory>
+  -->	
+</PreferenceScreen>

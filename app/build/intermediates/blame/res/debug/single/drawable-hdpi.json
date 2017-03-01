@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\preferences.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\exit.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\download.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\download.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\info.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\listcheck.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\listcheck.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\ic_action.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\help.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\reveal.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\reveal.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\check.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\donate.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\donate.png"
+    },
+    {
+        "merged": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\load.png",
+        "source": "C:\\Users\\andy\\StudioProjects\\AndWords\\app\\src\\main\\res\\drawable-hdpi\\load.png"
+    }
+]

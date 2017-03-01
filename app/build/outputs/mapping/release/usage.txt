@@ -1,0 +1,126 @@
+com.android.vending.billing.IInAppBillingService
+com.android.vending.billing.IInAppBillingService$Stub
+com.android.vending.billing.IInAppBillingService$Stub$Proxy
+com.roadkill.andwords.AcrossLiteReader:
+    15:15:public AcrossLiteReader()
+com.roadkill.andwords.AndGrid:
+    private static final java.lang.String ROCKER_WORD
+    private static final float CELL_BORDER
+    private static final float DOUBLE_CELL_BORDER
+    143:147:public void resetScrollOffsets()
+    408:408:public int getPuzzleID()
+    413:413:public char[][] getUserInput()
+com.roadkill.andwords.AndWords:
+    public static final boolean DEBUG
+    private static final java.lang.String TAG
+    public static final int EDIT_PREFS_ID
+    public static final int HELP_ID
+    public static final int EXIT_ID
+    public static final int LOAD_FILE
+    public static final int LOAD_URL
+    public static final int ACROSS_LITE
+    public static final int BRAINSONLY_COM
+    public static final int UCLICK
+    public static final int JSZ
+    public static final int KFS
+    public static final int NYT
+    public static final int WSJ
+    public static final int ONLINE_CROSSWORDS
+    public static final int GNY_JSON
+    public static final int PUZZLE_LOADED
+    public static final int NYT_DAILY
+    public static final int OCP_1
+    public static final int OCP_2
+    public static final int OCP_3
+    public static final int OCP_4
+    public static final int OCP_5
+    public static final int OCP_6
+    public static final int OCP_7
+    public static final int LA_TIMES
+    public static final int WALL_STREET_JOURNAL
+    public static final int BRAINS_ONLY
+    public static final int USATODAY
+    public static final int UNIVERSAL
+    public static final int DAILY_AMERICAN
+    public static final int BOATLOAD
+    public static final int CRUCIVERBALIST
+    public static final int KFSPREMIER
+    public static final int KFSJOSEPH
+    public static final int KFSSHEFFER
+    public static final int NYTCLASSIC_TWO
+    public static final int GNY
+    public static final int NYTCLASSIC
+    public static final int PUZZLES_BY_FRED
+    public static final int BRENDAN_EMMETT_QUIGLY_TUESDAY
+    public static final int BRENDAN_EMMETT_QUIGLY_FRIDAY
+    public static final int BOSTON_GLOBE
+    public static final int JONESIN
+    public static final int LOAD_CUSTOM_URL
+    public static final int CHRONICLE_OF_HIGHER_EDUCATION
+    private static final java.lang.String PREF_TIMER
+    private static final java.lang.String PREF_LAST_URL
+    public static final java.lang.String PREF_CELL_HEIGHT
+    public static final java.lang.String PREF_CELL_WIDTH
+    public static final java.lang.String PREF_LAST_PUZZLE
+    public static final java.lang.String PREF_LAST_PUZZLE_TYPE
+com.roadkill.andwords.BuildConfig
+com.roadkill.andwords.DownloadManager:
+    11:11:public DownloadManager()
+com.roadkill.andwords.GNYReader:
+    17:17:public GNYReader()
+com.roadkill.andwords.HistoricallyNamedCharset
+com.roadkill.andwords.KingFeaturesReader:
+    17:17:public KingFeaturesReader()
+com.roadkill.andwords.LoadPuzzle2:
+    static final int SUNDAY
+    static final int MONDAY
+    static final int TUESDAY
+    static final int WEDNESDAY
+    static final int THURSDAY
+    static final int FRIDAY
+    static final int SATURDAY
+    static final int WEEKLY
+    static final int MON_TO_SAT
+    static final int MON_TO_FRI
+    static final int FLAG_NO_FLAGS
+    static final int FLAG_NO_ARCHIVE
+    public static final java.lang.String LOAD_PUZZLE
+com.roadkill.andwords.LoadPuzzle2$PuzzleInfo:
+    public java.lang.String mFilePath
+com.roadkill.andwords.NYTReader:
+    17:17:public NYTReader()
+com.roadkill.andwords.R
+com.roadkill.andwords.R$array
+com.roadkill.andwords.R$attr
+com.roadkill.andwords.R$drawable
+com.roadkill.andwords.R$id
+com.roadkill.andwords.R$layout
+com.roadkill.andwords.R$menu
+com.roadkill.andwords.R$string
+com.roadkill.andwords.ReaderUtils:
+    private static final int BUFFER_SIZE
+    5:5:public ReaderUtils()
+com.roadkill.andwords.ThinksComReader:
+    13:13:public ThinksComReader()
+com.roadkill.andwords.WSJReader:
+    11:11:public WSJReader()
+com.roadkill.andwords.util.Base64
+com.roadkill.andwords.util.Base64DecoderException
+com.roadkill.andwords.util.IabException
+com.roadkill.andwords.util.IabHelper
+com.roadkill.andwords.util.IabHelper$1
+com.roadkill.andwords.util.IabHelper$2
+com.roadkill.andwords.util.IabHelper$2$1
+com.roadkill.andwords.util.IabHelper$3
+com.roadkill.andwords.util.IabHelper$3$1
+com.roadkill.andwords.util.IabHelper$3$2
+com.roadkill.andwords.util.IabHelper$OnConsumeFinishedListener
+com.roadkill.andwords.util.IabHelper$OnConsumeMultiFinishedListener
+com.roadkill.andwords.util.IabHelper$OnIabPurchaseFinishedListener
+com.roadkill.andwords.util.IabHelper$OnIabSetupFinishedListener
+com.roadkill.andwords.util.IabHelper$QueryInventoryFinishedListener
+com.roadkill.andwords.util.IabResult
+com.roadkill.andwords.util.Inventory
+com.roadkill.andwords.util.Purchase
+com.roadkill.andwords.util.Security
+com.roadkill.andwords.util.SkuDetails
