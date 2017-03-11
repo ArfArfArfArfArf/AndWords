@@ -19,13 +19,6 @@
 	
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true">
 
-<!-- 
-		<meta-data android:value="a14d7768a09981c" android:name="ADMOB_PUBLISHER_ID"/>
-		<meta-data android:value="a14d7768a09981c" android:name="ADMOB_INTERSTITIAL_PUBLISHER_ID" /> 
-		<activity android:name="com.google.ads.AdActivity"
-              android:configChanges="keyboard|keyboardHidden|orientation|smallestScreenSize|screenLayout|uiMode|screenSize" />
--->	
-				
 		<activity android:name=".AndWords" android:label="@string/app_name"
         		  android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
         		  android:windowSoftInputMode="stateAlwaysVisible|adjustResize">
@@ -39,12 +32,6 @@
         <activity android:name=".Preferences" android:label="Preferences">
         </activity>
         
-        <activity android:name=".LoadPuzzle" android:label="LoadPuzzle">
-       	<intent-filter>
-        		<action android:name="com.roadkill.andwords.LoadPuzzle.LOAD_PUZZLE" />
-        		<category android:name="android.intent.category.DEFAULT" />
-        	</intent-filter>
-        </activity>
         <activity android:name=".LoadPuzzle2" android:label="LoadPuzzle2">
        	<intent-filter>
         		<action android:name="com.roadkill.andwords.LoadPuzzle2.LOAD_PUZZLE" />

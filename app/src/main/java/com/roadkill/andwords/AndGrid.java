@@ -760,11 +760,11 @@ public class AndGrid extends View implements OnLongClickListener
 
 	private int offsetFromX(int x)
 	{
-		return (int)(x * (mCellWidth + DOUBLE_CELL_BORDER)); 
+		return (int)(x * (mCellWidth + DOUBLE_CELL_BORDER - mXOffset));
 	}
 	
 	private int offsetFromY(int y) {
-		return (int) (y * (mCellHeight + DOUBLE_CELL_BORDER) + mClueOffset + 1);
+		return (int) ((y * (mCellHeight + DOUBLE_CELL_BORDER) + mClueOffset + 1) - mYOffset) ;
 	}
 	
 	private void invalidateCell(int x, int y)
@@ -1067,93 +1067,6 @@ public class AndGrid extends View implements OnLongClickListener
 			{
 				if (drawCell(canvas, j, i))
 					bBadAnswer = true;
-/*				
-				if (mLayout[i][j] == '.')
-				{
-					canvas.drawRect(x, y, x + xCellWidth + xLeftBorder + xRightBorder, y + yCellHeight + yTopBorder + yBottomBorder, mFillPaint);
-				}
-				else
-				{
-					// left vertical line
-					if (xDiff == 0.0f)
-						canvas.drawLine(x, y, x, y + yCellHeight, mGridPaint);
-					
-					// right vertical line
-					canvas.drawLine(x + xCellWidth + xLeftBorder + xRightBorder, y, x + xCellWidth + xLeftBorder + xRightBorder, y + yCellHeight, mGridPaint);
-					
-					// top horizontal line
-					if (yDiff == 0.0f)
-						canvas.drawLine(x, y, x + xCellWidth, y, mGridPaint);
-					
-					// bottom horizontal line
-					canvas.drawLine(x, y + yCellHeight + yTopBorder + yBottomBorder, x + xCellWidth, y + yCellHeight + yTopBorder + yBottomBorder, mGridPaint);
-					
-					// hilit the selected row
-					if (isRowSelected(i, j))
-					{
-						canvas.drawRect(x + xLeftBorder, y + yTopBorder, x + xCellWidth + xLeftBorder, y + yCellHeight + yTopBorder, mSelectedRowPaint);
-					}
-					
-					// selected cell is hilited
-					if (mSelectedX == j && mSelectedY == i)
-					{
-						// if we aren't scrolling, make sure that the selected cell
-						// is visible
-						if (mMoving == false)
-						{
-							if (x + mCellWidth > getWidth())
-							{
-								mXOffset += (x + mCellWidth - getWidth());
-								invalidate();
-								return;
-							}
-							
-							if (y + mCellHeight > getHeight())
-							{
-								mYOffset += (y + mCellHeight - getHeight());
-								invalidate();
-								return;
-							}
-						}
-						
-						canvas.drawRect(x + xLeftBorder, y + yTopBorder, x + xCellWidth + xLeftBorder, y + yCellHeight + yTopBorder, mSelectedCellPaint);
-					}
-					
-					
-					// draw the cell numbers
-					if (mInfo.mCellNumbers[i][j] != 0)
-					{
-						canvas.drawText(String.valueOf(mInfo.mCellNumbers[i][j]), x + xLeftBorder - xDiff + 2, y + yTopBorder - yDiff + mCellHeight/3.0f + 2, mNumberPaint);
-					}
-					
-					// put any user input in the cell
-					if (mLayout[i][j] != 0)
-					{
-						String strText = String.valueOf(mLayout[i][j]);
-						
-						// only hilit wrong answers if the pref is set and we aren't in 'do it in ink' mode
-						if (mLayout[i][j] != mInfo.mSolution[i][j] && mShowWrongAnswers && mInkMode == false)
-						{
-							canvas.drawText(strText, x + xLeftBorder - xDiff + ((xCellWidth - (int)mWrongCharacterPaint.measureText(strText, 0, 1))/2), y  + yCellHeight - yTopBorder, mWrongCharacterPaint);
-							bBadAnswer = true;
-						}
-						else
-							canvas.drawText(strText, x + xLeftBorder - xDiff + ((xCellWidth - (int)mCharacterPaint.measureText(strText, 0, 1))/2), y + yCellHeight - yTopBorder, mCharacterPaint);	
-					}
-					else
-					{
-						// make sure this isn't a blank box cell
-						if (mLayout[i][j] != '.')
-							bBadAnswer = true;
-					}
-					
-					// circled cell
-					if (mInfo.mCircledSquares != null && mInfo.mCircledSquares[i][j] != 0)
-					{
-						canvas.drawCircle(x + xLeftBorder - xDiff + (mCellWidth/2.0f) , y + yTopBorder - yDiff + (mCellHeight/2.0f), mCellWidth / 2.0f, mCirclePaint);
-					}
-				}			
-*/
 				x += xCellWidth + xLeftBorder + xRightBorder;
 				xLeftBorder = CELL_BORDER;
 				xDiff = 0.0f;
